@@ -1,5 +1,5 @@
-import Header from "/components/admin/Header";
-import Sidebar from "/components/admin/Sidebar";
+import Header from "/components/admins/Header";
+import Sidebar from "/components/admins/Sidebar";
 import { useEffect, useState } from "react";
 import Head from "next/head";
 import axios from "axios";

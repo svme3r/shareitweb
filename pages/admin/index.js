@@ -1,8 +1,8 @@
 import axios from "axios";
 import Head from "next/head";
 import { useState as UseState } from "react";
-import Header from "/components/admin/Header";
-import Sidebar from "/components/admin/Sidebar";
+import Header from "/components/admins/Header";
+import Sidebar from "/components/admins/Sidebar";
 import { BASE_URL } from "../../utils/api";
 // import { getSession} from "next-auth/react";
 
@@ -51,7 +51,7 @@ const admin = ({ leagues, stories }) => {
             </div>
             <div>
               <iframe
-                src="https://admin-dashboard-three-peach.vercel.app/"
+                src="https://admins-dashboard-three-peach.vercel.app/"
                 className="w-full h-screen overflow-y-hidden"
               ></iframe>
             </div>
