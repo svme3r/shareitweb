@@ -1,8 +1,8 @@
 import axios from "axios";
 import Head from "next/head";
 import { useState as UseState } from "react";
-import Header from "../../components/admin/Header";
-import Sidebar from "../../components/admin/Sidebar";
+import Header from "/components/admin/Header";
+import Sidebar from "/components/admin/Sidebar";
 import { BASE_URL } from "../../utils/api";
 // import { getSession} from "next-auth/react";
 
@@ -11,9 +11,9 @@ const admin = ({ leagues, stories }) => {
 
   return (
     <>
-    <Head>
-      <title>Admin | ShareIt</title>
-    </Head>
+      <Head>
+        <title>Admin | ShareIt</title>
+      </Head>
       <div className="flex">
         <Sidebar open={open} setOpen={setOpen} />
         <div className="flex-1">

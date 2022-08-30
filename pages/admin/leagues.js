@@ -1,11 +1,11 @@
-import Input from "../../components/admin/form/Input";
-import Label from "../../components/admin/form/Label";
-import Header from "../../components/admin/Header";
-import Sidebar from "../../components/admin/Sidebar";
+import Input from "/components/admin/form/Input";
+import Label from "/components/admin/form/Label";
+import Header from "/components/admin/Header";
+import Sidebar from "/components/admin/Sidebar";
 
 import DropdownTreeSelect from "react-dropdown-tree-select";
 import "react-dropdown-tree-select/dist/styles.css";
-import Button from "../../components/admin/form/Button";
+import Button from "/components/admin/form/Button";
 import MaterialTable from "material-table";
 import { useEffect, useState } from "react";
 import { TagsInput } from "react-tag-input-component";
