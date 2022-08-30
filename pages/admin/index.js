@@ -1,8 +1,8 @@
 import axios from "axios";
 import Head from "next/head";
 import { useState as UseState } from "react";
-import Header from "/components/admins/Header";
-import Sidebar from "/components/admins/Sidebar";
+import Header from "src/components/admins/Header";
+import Sidebar from "src/components/admins/Sidebar";
 import { BASE_URL } from "../../utils/api";
 // import { getSession} from "next-auth/react";
 

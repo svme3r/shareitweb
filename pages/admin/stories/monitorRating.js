@@ -1,11 +1,11 @@
-import Input from "/components/admins/form/Input";
-import Label from "/components/admins/form/Label";
-import Header from "/components/admins/Header";
-import Sidebar from "/components/admins/Sidebar";
+import Input from "src/components/admins/form/Input";
+import Label from "src/components/admins/form/Label";
+import Header from "src/components/admins/Header";
+import Sidebar from "src/components/admins/Sidebar";
 
 import DropdownTreeSelect from "react-dropdown-tree-select";
 import "react-dropdown-tree-select/dist/styles.css";
-import Button from "/components/admins/form/Button";
+import Button from "src/components/admins/form/Button";
 import MaterialTable from "material-table";
 import { useEffect, useState } from "react";
 
@@ -19,8 +19,8 @@ import { Edit } from "@mui/icons-material";
 import axios from "axios";
 import { BASE_URL } from "../../../utils/api";
 import { useRouter } from "next/router";
-import StoryTabs from "../../../components/admins/Tabs/Tabs";
-import MonitorStoryCard from "/components/admins/monitor/MonitorStoryCard";
+import StoryTabs from "../../..src/components/admins/Tabs/Tabs";
+import MonitorStoryCard from "src/components/admins/monitor/MonitorStoryCard";
 
 const ForRating = ({ leagues, stories, monitorStoriesRes }) => {
   console.log(
